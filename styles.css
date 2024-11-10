@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "IntroRegular";
+    src: url(/fonts/Intro-Regular.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IntroBook";
+    src: url(/fonts/Intro-Book.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IntroBold";
+    src: url(/fonts/Intro-Bold.ttf) format("truetype");
+    
+}
+
+@font-face {
+    font-family: "IntroLight";
+    src: url(/fonts/Intro-Light.ttf) format("truetype");
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    width: 1920px;
+}
+
+.hero {
+    height: 528px;
+    background-color: #484283;
+    padding: 0 370px 0 370px;
+}
+
+.back-text {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 145px;
+}
+
+.header {
+    width: 1180px;
+    height: 44px;
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    align-items: center;
+}
+
+.nameLogo {
+    width: 145px;
+    height: 24px;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 12px;
+    font-family: "IntroRegular";
+}
+
+.menu {
+    display: flex;
+    width: 680px;
+    height: 14px;
+    margin-left: 220px;
+    color: white;
+    margin-bottom: 23px;
+}
+
+.menu ul {
+    width: 680px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+    font-family: "IntroLight";
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.basket {
+    display: flex;
+    width: 95px;
+    height: 25px;
+    margin-left: 40px;
+    color: white;
+    font-family: "IntroLight";
+    margin-bottom: 19px;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.basket img {
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+.hero-action {
+    display: block;
+    width: 580px;
+    height: 100px;
+    font-size: 36px;
+    line-height: 140%;
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    font-family: "IntroRegular";
+    margin-top: 100px;
+    -webkit-text-stroke: 1px black;
+}
+
+.hero-description {
+    display: block;
+    width: 480px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+    font-family: "IntroLight";
+    margin-top: 20px;
+}
+
+.hero-button {
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: #f14f4f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: "IntroRegular";
+}
+
